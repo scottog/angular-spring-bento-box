@@ -1,0 +1,78 @@
+/* Colors */
+/* Sizing */
+/* General Styling */
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: white; }
+
+.contents {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; }
+
+button {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  color: black;
+  border: 1px black;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  cursor: pointer; }
+
+h1 {
+  margin: 0; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.fa {
+  font-size: 20px;
+  color: white;
+  padding: 0;
+  margin: 0 auto; }
+
+/* Right Nav */
+ul.signin-panel {
+  position: absolute;
+  top: 32%;
+  right: 0;
+  margin: 0 50px 0 20px;
+  padding: 0; }
+  ul.signin-panel li {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #8eaebd;
+    padding: 10px; }
+  ul.signin-panel li:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; }
+  ul.signin-panel li:last-child {
+    background-color: #cd6868;
+    padding: 10px 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; }
+
+/* Fields */
+.signup-fields {
+  list-style: none; }
+
+button.submit {
+  display: block;
+  float: right;
+  width: 50%;
+  font-size: 1.25em; }
+
+button.cancel {
+  float: left;
+  color: #cd6868; }
